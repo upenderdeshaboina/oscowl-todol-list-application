@@ -1,0 +1,103 @@
+.edit-user-popup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-user-popup {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.edit-user-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.edit-user-error-message {
+  color: #d9534f;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.edit-user-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.edit-user-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.edit-user-button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.edit-user-button {
+  width: 48%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-user-button-save {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.edit-user-button-save:hover {
+  background-color: #218838;
+}
+
+.edit-user-button-cancel {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.edit-user-button-cancel:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 480px) {
+  .edit-user-popup {
+    padding: 15px;
+    width: 95%;
+    max-width: 350px;
+  }
+
+  .edit-user-button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .edit-user-button {
+    width: 100%;
+  }
+}
+

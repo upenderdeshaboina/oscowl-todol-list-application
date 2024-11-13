@@ -1,0 +1,56 @@
+.popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    height: 100%;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup , .popup select {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .input{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .popup button {
+    background-color: #4CAF50;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .popup button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+    .popup {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .popup, .popup select {
+      width: 100%;
+      font-size: 1rem;
+    }
+    .input{
+      width: 100%;
+      font-size: 1rem;
+    }
+  
+    .popup button {
+      width: 100%;
+      padding: 12px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .popup {
+      max-width: 450px;
+    }
+  }
+  
